@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
+body {
+    background-image: url(./img/background.jpg);
+    background-size: 1750px;
+    background-position: -10px -10px;
+    color: #fff;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0;
+}
+
+.style-font {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+
+h1.time {
+    font-size: 100px;
+    margin-bottom: 20px;
+}
+
+button.button-wrap.start {
+    width: 300px;
+    height: 100px;
+    margin: 20px;
+    font-size: 30px;
+    border: none;
+    border-radius: 10px;
+    background: linear-gradient(0deg, rgba(0,116,255,1) 50%, rgba(255,255,255,1) 50%);
+    background-size: 200% 200%;
+    background-position: 0% 0%;
+    transition: all 0.5s;
+}
+
+button.button-wrap.start:hover {
+    width: 400px;
+    background-position: 0% 100%;
+}
+
+button.button-wrap.stop {
+    width: 300px;
+    height: 100px;
+    margin: 20px;
+    font-size: 30px;
+    border: none;
+    border-radius: 10px;
+    background: linear-gradient(0deg, rgb(255, 0, 76) 50%, rgba(255,255,255,1) 50%);
+    background-size: 200% 200%;
+    background-position: 0% 0%;
+    transition: all 0.5s;
+}
+
+button.button-wrap:hover.stop {
+    width: 400px;
+    background-position: 0% 100%;
+}
