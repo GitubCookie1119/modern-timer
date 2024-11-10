@@ -4,18 +4,10 @@
   "description": "fit to use it for study.",
   "main": "main.js",
   "scripts": {
-    "build": "electron-packager . --icon=icon.ico --overwrite"
+    "start": "electron ."
   },
   "author": "CookiePaisen",
   "license": "MIT",
-  "build": {
-    "productName": "Study-Timer",
-    "appId": "modern.timer",
-    "win": {
-      "target": "portable",
-      "icon": "icon.ico"
-    }
-  },
   "devDependencies": {
     "electron": "^33.0.2",
     "electron-packager": "^17.1.2"
