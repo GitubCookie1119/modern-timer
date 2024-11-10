@@ -1,7 +1,7 @@
 # modern-timer
 This application is made using Electron.js. fit to use it for study.
 
-## setup
+## Setup
 
 To get set up this application, follow these steps:
 
@@ -15,3 +15,8 @@ npm install
 ```bash
 npm run start
 ```
+
+## How to use
+Press `Start timer` to start the timer, press `Stop timer` to stop the timer.
+
+When the timer runs for 25 minutes, the background changes, and when it runs for another 5 minutes, the background returns to normal.
